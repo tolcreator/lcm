@@ -21,7 +21,7 @@ def get_max_from_user():
 
 def generate_sequence(n_max):
     """ Generates the sequence we will be working with """
-    return list(range(1, n_max + 1))
+    return [i for i in range(1, n_max + 1)]
 
 def display_time_taken(t_start, t_end):
     """ Displays time taken in nice units """
